@@ -1,0 +1,44 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .input {
+    margin-bottom: 20px;
+  }
+  
+  .tableContainer {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .column:last-child {
+    border-right: none;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+  }
+  
+  .row:last-child {
+    border-bottom: none;
+  }
+  
+  .number {
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+    color: #999;
+  }
+  
